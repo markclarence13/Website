@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .profile {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+        }
+
+        .profile img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>User Profiles</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Profiles</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="profile-container">
+    <div class="profile">
+        <img src="profile1.jpg" alt="Profile 1">
+        <h2>User 1</h2>
+        <p>Email: user1@example.com</p>
+        <p>Location: City 1</p>
+    </div>
+
+    <div class="profile">
+        <img src="profile2.jpg" alt="Profile 2">
+        <h2>User 2</h2>
+        <p>Email: user2@example.com</p>
+        <p>Location: City 2</p>
+        <p>About: </p>
+    </div>
+
+    <!-- Add more profiles as needed -->
+</div>
+
+</body>
+</html>
